@@ -1,0 +1,67 @@
+{
+  "results": {
+    "coqa": {
+      "em,none": 0.6718333333333336,
+      "em_stderr,none": 0.017689929038891727,
+      "f1,none": 0.8068297107500156,
+      "f1_stderr,none": 0.012789908934490163,
+      "alias": "coqa"
+    }
+  },
+  "configs": {
+    "coqa": {
+      "task": "coqa",
+      "dataset_path": "EleutherAI/coqa",
+      "training_split": "train",
+      "validation_split": "validation",
+      "doc_to_text": "<function doc_to_text at 0x7f3d4e440ea0>",
+      "doc_to_target": "<function doc_to_target at 0x7f3d4e441300>",
+      "process_results": "<function process_results at 0x7f3d4e4418a0>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "em",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "f1",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\nQ:"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "{{story}} {{question.input_text|join('\n')}}",
+      "metadata": {
+        "version": 3.0
+      }
+    }
+  },
+  "versions": {
+    "coqa": 3.0
+  },
+  "n-shot": {
+    "coqa": 0
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=mistralai/Mistral-7B-v0.1,cache_dir=../model_cache/",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "use_cache": "../evaluate_cache/",
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "40c1643"
+}

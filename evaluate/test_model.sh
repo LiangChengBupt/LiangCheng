@@ -1,5 +1,9 @@
 # 定义要检查的目录列表
-DIRS=("evaluate_cache" "model_cache" "test_output")
+export EVA_CACHE_DIR="../evaluate_cache/"
+export MODEL_CACHE_DIR="../model_cache/"
+export OUTPUT_DIR='../test_output/'
+
+DIRS=("$EVA_CACHE_DIR" "$MODEL_CACHE_DIR" "$OUTPUT_DIR")
 
 # 循环遍历每个目录
 for DIR in "${DIRS[@]}"; do
@@ -18,9 +22,9 @@ done
 export NUMEXPR_MAX_THREADS=64
 export HF_ENDPOINT=https://hf-mirror.com
 lm_eval --model hf \
-    --use_cache './evaluate_cache/' \
-    --model_args pretrained=mistralai/Mixtral-8x7B-Instruct-v0.1,cache_dir='./model_cache/' \
+    --use_cache $EVA_CACHE_DIR \
+    --model_args pretrained=mistralai/Mistral-7B-v0.1,cache_dir=$MODEL_CACHE_DIR \
     --tasks coqa \
     --device cuda:0 \
-    --batch_size 8 \
-    --output_path './test_output/'
+    --batch_size 1 \
+    --output_path $OUTPUT_DIR

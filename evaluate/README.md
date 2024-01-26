@@ -18,5 +18,6 @@ git clone https://github.com/EleutherAI/lm-evaluation-harness
 cd lm-evaluation-harness
 pip install -e .
 # 使用脚本评测
+cd evaluate
 ./test_model.sh
 ````

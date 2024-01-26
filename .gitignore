@@ -1,9 +1,9 @@
 /lm-evalution-harness/*
-!lm-evalution-harness/.gitkeep
-/evaluate_cache/
-!evaluate_cache/.gitkeep
-/datasets/
-!datasets/.gitkeep
-/model_cache/
-!model_cache/.gitkeep
+!/lm-evalution-harness/.gitkeep
+/evaluate_cache/*
+!/evaluate_cache/.gitkeep
+/datasets/*
+!/datasets/.gitkeep
+/model_cache/*
+!/model_cache/.gitkeep
 /.ipynb_checkpoints

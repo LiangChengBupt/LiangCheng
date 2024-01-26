@@ -1,5 +1,5 @@
-/lm-evalution-harness
-/evaluate_cache/**
-/datasets/**
-/model_cache/**
+/lm-evalution-harness/**
+/evaluate_cache/
+/datasets/
+/model_cache/
 /.ipynb_checkpoints

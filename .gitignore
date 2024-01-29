@@ -5,6 +5,12 @@
 /datasets/*
 !/datasets/.gitkeep
 /model_cache/*
+/models/*
+!/models/.gitkeep
 !/model_cache/.gitkeep
 /.ipynb_checkpoints
 /MemGPT/**
+**/.vscode/**
+**/__pycache__/**
+**/debug_log.txt
+.vscode/**

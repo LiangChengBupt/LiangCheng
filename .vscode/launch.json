@@ -5,11 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Python: repro",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "/mnt/data/airaiot/LiangCheng/reproduction/api_test.py",
+            // "program": "/mnt/data/airaiot/LiangCheng/",
             "console": "integratedTerminal",
+            // "args": ["run","--debug"],
             "justMyCode": true
         }
     ]

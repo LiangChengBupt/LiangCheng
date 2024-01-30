@@ -23,8 +23,11 @@ import difflib
 import demjson3 as demjson
 import pytz
 import tiktoken
-
+# sys.path.append("..")
+sys.path.append(os.getcwd())
 from settings.settings import get_completions_settings
+# from ..settingssettings.settings import get_completions_settings
+
 # from memgpt.local_llm.settings.settings import get_completions_settings
 # from memgpt.local_llm.utils import count_tokens, post_json_auth_request
 

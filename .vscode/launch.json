@@ -8,7 +8,7 @@
             "name": "Python: repro",
             "type": "python",
             "request": "launch",
-            "program": "/mnt/data/airaiot/LiangCheng/reproduction/api_test.py",
+            "program": "/mnt/data/airaiot/LiangCheng/reproduction/api/api_test.py",
             // "program": "/mnt/data/airaiot/LiangCheng/",
             "console": "integratedTerminal",
             // "args": ["run","--debug"],

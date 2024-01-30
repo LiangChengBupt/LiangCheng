@@ -1,0 +1,73 @@
+2024-01-30 20:00:22,874 - connectionpool.py[line:1019] - DEBUG: Starting new HTTPS connection (1): hf-mirror.com:443
+2024-01-30 20:00:23,670 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "GET /api/datasets/ms_marco HTTP/1.1" 200 793
+2024-01-30 20:00:23,672 - connectionpool.py[line:1019] - DEBUG: Starting new HTTPS connection (1): s3.amazonaws.com:443
+2024-01-30 20:00:24,719 - connectionpool.py[line:474] - DEBUG: https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/ms_marco/ms_marco.py HTTP/1.1" 200 0
+2024-01-30 20:00:25,045 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "GET /api/datasets/ms_marco HTTP/1.1" 200 793
+2024-01-30 20:00:25,047 - connectionpool.py[line:1019] - DEBUG: Starting new HTTPS connection (1): hf-mirror.com:443
+2024-01-30 20:00:25,625 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "HEAD /datasets/ms_marco/resolve/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a/README.md HTTP/1.1" 200 0
+2024-01-30 20:00:25,626 - _api.py[line:254] - DEBUG: Attempting to acquire lock 139802085015184 on /root/.cache/huggingface/datasets/downloads/5e746932d745cdf687be79eb96acdb7825b4933783875258ae88581fcdb4d81b.9bb8c7a613f3a2937da4e9b6a65fbebba4f1781b9147af230e3fb827b03e19d5.lock
+2024-01-30 20:00:25,627 - _api.py[line:257] - DEBUG: Lock 139802085015184 acquired on /root/.cache/huggingface/datasets/downloads/5e746932d745cdf687be79eb96acdb7825b4933783875258ae88581fcdb4d81b.9bb8c7a613f3a2937da4e9b6a65fbebba4f1781b9147af230e3fb827b03e19d5.lock
+2024-01-30 20:00:25,629 - connectionpool.py[line:1019] - DEBUG: Starting new HTTPS connection (1): hf-mirror.com:443
+2024-01-30 20:00:26,125 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "GET /datasets/ms_marco/resolve/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a/README.md HTTP/1.1" 200 None
+2024-01-30 20:00:26,131 - _api.py[line:286] - DEBUG: Attempting to release lock 139802085015184 on /root/.cache/huggingface/datasets/downloads/5e746932d745cdf687be79eb96acdb7825b4933783875258ae88581fcdb4d81b.9bb8c7a613f3a2937da4e9b6a65fbebba4f1781b9147af230e3fb827b03e19d5.lock
+2024-01-30 20:00:26,132 - _api.py[line:289] - DEBUG: Lock 139802085015184 released on /root/.cache/huggingface/datasets/downloads/5e746932d745cdf687be79eb96acdb7825b4933783875258ae88581fcdb4d81b.9bb8c7a613f3a2937da4e9b6a65fbebba4f1781b9147af230e3fb827b03e19d5.lock
+2024-01-30 20:00:26,559 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "GET /api/datasets/ms_marco/revision/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 793
+2024-01-30 20:00:26,851 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:27,156 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:27,448 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "GET /api/datasets/ms_marco/tree/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a/v1.1?recursive=False&expand=False HTTP/1.1" 200 362
+2024-01-30 20:00:27,759 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:28,051 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:28,053 - connectionpool.py[line:1019] - DEBUG: Starting new HTTPS connection (1): hf-mirror.com:443
+2024-01-30 20:00:29,177 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "GET /api/datasets/ms_marco/revision/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 793
+2024-01-30 20:00:29,477 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:29,796 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:30,093 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:30,439 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:31,159 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:31,460 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:31,772 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:32,077 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:32,079 - connectionpool.py[line:1019] - DEBUG: Starting new HTTPS connection (1): hf-mirror.com:443
+2024-01-30 20:00:33,350 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "HEAD /datasets/ms_marco/resolve/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a/dataset_infos.json HTTP/1.1" 404 0
+2024-01-30 20:00:33,653 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:33,952 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:34,239 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:34,540 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:34,826 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:35,133 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:35,471 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:35,772 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:36,073 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:36,418 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:36,710 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 96
+2024-01-30 20:00:37,012 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "POST /api/datasets/ms_marco/paths-info/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a HTTP/1.1" 200 235
+2024-01-30 20:00:37,021 - _api.py[line:254] - DEBUG: Attempting to acquire lock 139802085935184 on ../datasets/.._datasets_ms_marco_v1.1_0.0.0_a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a.lock
+2024-01-30 20:00:37,028 - _api.py[line:257] - DEBUG: Lock 139802085935184 acquired on ../datasets/.._datasets_ms_marco_v1.1_0.0.0_a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a.lock
+2024-01-30 20:00:37,036 - local.py[line:294] - DEBUG: open file: /mnt/data/airaiot/LiangCheng/evaluate/../datasets/ms_marco/v1.1/0.0.0/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a/dataset_info.json
+2024-01-30 20:00:37,037 - _api.py[line:286] - DEBUG: Attempting to release lock 139802085935184 on ../datasets/.._datasets_ms_marco_v1.1_0.0.0_a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a.lock
+2024-01-30 20:00:37,039 - _api.py[line:289] - DEBUG: Lock 139802085935184 released on ../datasets/.._datasets_ms_marco_v1.1_0.0.0_a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a.lock
+2024-01-30 20:00:37,927 - _api.py[line:254] - DEBUG: Attempting to acquire lock 139802070918416 on /mnt/data/airaiot/LiangCheng/evaluate/../datasets/ms_marco/v1.1/0.0.0/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a_builder.lock
+2024-01-30 20:00:37,943 - _api.py[line:257] - DEBUG: Lock 139802070918416 acquired on /mnt/data/airaiot/LiangCheng/evaluate/../datasets/ms_marco/v1.1/0.0.0/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a_builder.lock
+2024-01-30 20:00:37,943 - local.py[line:294] - DEBUG: open file: /mnt/data/airaiot/LiangCheng/evaluate/../datasets/ms_marco/v1.1/0.0.0/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a/dataset_info.json
+2024-01-30 20:00:37,955 - _api.py[line:286] - DEBUG: Attempting to release lock 139802070918416 on /mnt/data/airaiot/LiangCheng/evaluate/../datasets/ms_marco/v1.1/0.0.0/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a_builder.lock
+2024-01-30 20:00:37,959 - _api.py[line:289] - DEBUG: Lock 139802070918416 released on /mnt/data/airaiot/LiangCheng/evaluate/../datasets/ms_marco/v1.1/0.0.0/a47ee7aae8d7d466ba15f9f0bfac3b3681087b3a_builder.lock
+2024-01-30 20:00:39,170 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "HEAD /deepset/roberta-base-squad2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-01-30 20:00:39,776 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "HEAD /deepset/roberta-base-squad2/resolve/main/config.json HTTP/1.1" 200 0
+2024-01-30 20:00:39,777 - _api.py[line:254] - DEBUG: Attempting to acquire lock 139798787873744 on /root/.cache/huggingface/hub/.locks/models--deepset--roberta-base-squad2/a1f66a8df792b74eb796ed468eb1fcb1d739d558.lock
+2024-01-30 20:00:39,784 - _api.py[line:257] - DEBUG: Lock 139798787873744 acquired on /root/.cache/huggingface/hub/.locks/models--deepset--roberta-base-squad2/a1f66a8df792b74eb796ed468eb1fcb1d739d558.lock
+2024-01-30 20:00:40,245 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "GET /deepset/roberta-base-squad2/resolve/main/config.json HTTP/1.1" 200 321
+2024-01-30 20:00:40,247 - _api.py[line:286] - DEBUG: Attempting to release lock 139798787873744 on /root/.cache/huggingface/hub/.locks/models--deepset--roberta-base-squad2/a1f66a8df792b74eb796ed468eb1fcb1d739d558.lock
+2024-01-30 20:00:40,252 - _api.py[line:289] - DEBUG: Lock 139798787873744 released on /root/.cache/huggingface/hub/.locks/models--deepset--roberta-base-squad2/a1f66a8df792b74eb796ed468eb1fcb1d739d558.lock
+2024-01-30 20:00:40,557 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "HEAD /deepset/roberta-base-squad2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2024-01-30 20:00:42,290 - connectionpool.py[line:474] - DEBUG: https://hf-mirror.com:443 "HEAD /deepset/roberta-base-squad2/resolve/main/model.safetensors HTTP/1.1" 302 0
+2024-01-30 20:00:42,291 - _api.py[line:254] - DEBUG: Attempting to acquire lock 139802092941584 on /root/.cache/huggingface/hub/.locks/models--deepset--roberta-base-squad2/ac5db66fdcfecb400345d09787b71009d60805ef9883451071669cf951b5e2c7.lock
+2024-01-30 20:00:42,295 - _api.py[line:257] - DEBUG: Lock 139802092941584 acquired on /root/.cache/huggingface/hub/.locks/models--deepset--roberta-base-squad2/ac5db66fdcfecb400345d09787b71009d60805ef9883451071669cf951b5e2c7.lock
+2024-01-30 20:00:42,299 - connectionpool.py[line:1019] - DEBUG: Starting new HTTPS connection (1): cdn-lfs.hf-mirror.com:443
+2024-01-30 20:00:43,392 - connectionpool.py[line:474] - DEBUG: https://cdn-lfs.hf-mirror.com:443 "GET /deepset/roberta-base-squad2/ac5db66fdcfecb400345d09787b71009d60805ef9883451071669cf951b5e2c7?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1706873617&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwNjg3MzYxN319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9kZWVwc2V0L3JvYmVydGEtYmFzZS1zcXVhZDIvYWM1ZGI2NmZkY2ZlY2I0MDAzNDVkMDk3ODdiNzEwMDlkNjA4MDVlZjk4ODM0NTEwNzE2NjljZjk1MWI1ZTJjNz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=U7XG4TMTyO8gQ2wS3s8aRaGxMelNnX4IDcWR7c-DheS6n9ab-wlbIEWzAtg0OQ0d3BxTBcWnn8b8tAbKH48Ske13ZfbqDEkir1bcY2ECaSh-NdLbkyK0LEEcU8TBmNqixW9hE~p4C9RIgHLp5MJJlH~gE~B6KijmFyalhuZWLSN3nSew8S4b5MDwAX8Mn58zAK0fQ09VLeXO9aFp35RwajA7kwFxIAlXqmvXxGVgDeVICTOP7vLSqQ4tPA69juQ1fz3at~hVfi3VceMne8408Ho1x~4R-op8pN9Y1ju-RHlr22rAC6bHxDWWK0F9vuKlkDLpgN~eqYzzswDEt-B0YQ__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 496254442
+2024-01-30 20:01:35,091 - _api.py[line:286] - DEBUG: Attempting to release lock 139802092941584 on /root/.cache/huggingface/hub/.locks/models--deepset--roberta-base-squad2/ac5db66fdcfecb400345d09787b71009d60805ef9883451071669cf951b5e2c7.lock
+2024-01-30 20:01:35,091 - _api.py[line:289] - DEBUG: Lock 139802092941584 released on /root/.cache/huggingface/hub/.locks/models--deepset--roberta-base-squad2/ac5db66fdcfecb400345d09787b71009d60805ef9883451071669cf951b5e2c7.lock
+2024-01-30 20:01:48,508 - evaluate.py[line:61] - DEBUG: idx query_id : 0gen_answer : This will scare the squirrels away
+2024-01-30 20:02:04,222 - evaluate.py[line:61] - DEBUG: idx query_id : 1gen_answer : good energy resources
+2024-01-30 20:02:15,622 - evaluate.py[line:61] - DEBUG: idx query_id : 2gen_answer : a line segment from the center to the midpoint of one of its sides
+2024-01-30 20:02:27,219 - evaluate.py[line:61] - DEBUG: idx query_id : 3gen_answer :<s>
+2024-01-30 20:02:37,929 - evaluate.py[line:61] - DEBUG: idx query_id : 4gen_answer : the collection of physical elements that constitutes a computer system

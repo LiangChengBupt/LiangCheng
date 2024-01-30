@@ -20,4 +20,8 @@ pip install -e .
 # 使用脚本评测
 cd evaluate
 ./test_model.sh
+
+# 手写版本：
+cd /mnt/data/airaiot/LiangCheng/evaluate
+./eva_model.sh
 ````
